@@ -13,11 +13,13 @@ Una vez tengamos los requisitos marcados en la parte superior, podemos implement
 
 2. Acceder desde una terminal al directorio donde se encuentra el código.
 
-3. Ejecutar el siguiente comando: `pip install -r requirements.txt`
+3. Ejecutar el siguiente comando: `python -m venv .venv`
 
-4. Crear en el directorio raíz del proyecto el archivo '.env', existe un archivo de ejemplo denominado '.env.example'.
+4. Ejecutar el siguiente comando: `pip install -r requirements.txt`
 
-5. Crear dentro del archivo '.env' las siguientes variables:
+5. Crear en el directorio raíz del proyecto el archivo '.env', existe un archivo de ejemplo denominado '.env.example'.
+
+6. Crear dentro del archivo '.env' las siguientes variables:
 ```env
 
 FLASK_ENV=production
